@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта дома с GPS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Карта моего дома</h1>
+    
+    <div class="controls">
+        <button id="startTracking">Включить GPS</button>
+        <button id="manualPosition">Указать вручную</button>
+    </div>
+    
+    <div class="map-container" id="map"></div>
+    
+    <div id="gpsInfo">Координаты: не определены</div>
+    
+    <div class="coordinates-form">
+        <small>Тестовые координаты углов:</small>
+        <button id="testNW">Северо-западный угол</button>
+        <button id="testNE">Северо-восточный угол</button>
+        <button id="testSW">Юго-западный угол</button>
+        <button id="testSE">Юго-восточный угол</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
